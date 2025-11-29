@@ -1,0 +1,5 @@
+@EndUserText.label: 'CDS RAP 1 Service Def'
+define service ZSD_CDS_RAP1 {
+  expose ZCDS_RAP1   as DMOCon;
+  expose ZCDS_RAP1_1 as Flight;
+}
